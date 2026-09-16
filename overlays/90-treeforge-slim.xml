@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Non-tangorpro Pixel kernel prebuilts -->
+    <remove-project name="device/google/akita-kernels/6.1" optional="true" />
+    <remove-project name="device/google/bluejay-kernels/6.1" optional="true" />
+    <remove-project name="device/google/caimito-kernels/6.1" optional="true" />
+    <remove-project name="device/google/comet-kernels/6.1" optional="true" />
+    <remove-project name="device/google/felix-kernels/6.1" optional="true" />
+    <remove-project name="device/google/lynx-kernels/6.1" optional="true" />
+    <remove-project name="device/google/pantah-kernels/6.1" optional="true" />
+    <remove-project name="device/google/raviole-kernels/6.1" optional="true" />
+    <remove-project name="device/google/shusky-kernels/6.1" optional="true" />
+
+    <!-- Cuttlefish -->
+    <remove-project name="device/google/cuttlefish" optional="true" />
+    <remove-project name="device/google/cuttlefish_prebuilts" optional="true" />
+    <remove-project name="device/google/cuttlefish_vmm" optional="true" />
+
+    <!-- Emulator-specific prebuilts -->
+    <remove-project name="platform/prebuilts/android-emulator" optional="true" />
+    <remove-project name="platform/prebuilts/qemu-kernel" optional="true" />
+
+    <!-- Generic emulator device trees -->
+    <remove-project name="device/generic/goldfish" optional="true" />
+    <remove-project name="device/generic/goldfish-opengl" optional="true" />
+    <remove-project name="device/generic/mini-emulator-arm64" optional="true" />
+    <remove-project name="device/generic/mini-emulator-armv7-a-neon" optional="true" />
+    <remove-project name="device/generic/mini-emulator-x86" optional="true" />
+    <remove-project name="device/generic/mini-emulator-x86_64" optional="true" />
+
+    <!-- Amlogic -->
+    <remove-project name="device/amlogic/yukawa" optional="true" />
+    <remove-project name="device/amlogic/yukawa-kernel" optional="true" />
+
+    <!-- Linaro boards -->
+    <remove-project name="device/linaro/dragonboard" optional="true" />
+    <remove-project name="device/linaro/dragonboard-kernel" optional="true" />
+    <remove-project name="device/linaro/hikey" optional="true" />
+    <remove-project name="device/linaro/hikey-kernel" optional="true" />
+    <remove-project name="device/linaro/poplar" optional="true" />
+    <remove-project name="device/linaro/poplar-kernel" optional="true" />
+
+</manifest>
