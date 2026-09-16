@@ -17,7 +17,7 @@ Google Pixel Tablet (`tangorpro`).
 After this repository is published, initialize with the actual
 TreeForgeAOSP manifest repository URL:
 
-    repo init -u ACTUAL_MANIFEST_REPOSITORY_URL -b development --depth=1
+    repo init -u https://github.com/TreeForgeAOSP/treeforge_aosp_manifest.git -b development --depth=1
 
 Then:
 
