@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
-  <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
+  <remote name="aosp" fetch="https://android.googlesource.com/" review="https://android-review.googlesource.com/" />
   <default remote="aosp" revision="refs/tags/android-15.0.0_r36" sync-j="6" sync-c="true" sync-tags="false" />
   <project name="device/common" revision="dbb5c4200be91c5fe7bd13df0957f19f0e6a10bf" upstream="refs/tags/android-15.0.0_r36" dest-branch="refs/tags/android-15.0.0_r36" groups="pdk,pdk-cw-fs" />
   <project name="device/generic/arm64" revision="71380158d818de918338e34a9cb72316fe3cfa4e" upstream="refs/tags/android-15.0.0_r36" dest-branch="refs/tags/android-15.0.0_r36" groups="pdk" />
