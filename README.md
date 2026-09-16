@@ -17,13 +17,22 @@ Google Pixel Tablet (`tangorpro`).
 After this repository is published, initialize with the actual
 TreeForgeAOSP manifest repository URL:
 
-    repo init -u https://github.com/TreeForgeAOSP/treeforge_aosp_manifest.git -b development --depth=1
+    REPO_ALLOW_SHALLOW=1 repo init \
+        -u https://github.com/TreeForgeAOSP/treeforge_aosp_manifest.git \
+        -b development \
+        --depth=1 \
+        --no-clone-bundle
 
 Then:
 
-    repo sync
+    REPO_ALLOW_SHALLOW=1 repo sync --no-clone-bundle
 
 The manifest defaults to six sync jobs.
+
+`REPO_ALLOW_SHALLOW=1` and `--no-clone-bundle` are part of the
+TreeForge shallow-checkout policy. They were validated against Repo
+2.67 and prevent large full-history project object stores from being
+materialized during a depth-1 checkout.
 
 ## Provenance
 
