@@ -46,8 +46,7 @@ The following are part of the validated TreeForge checkout policy:
 unshallowed so future manifest updates can be fetched and rebased
 normally.
 
-This configuration was fresh-checkout validated with all 1002
-manifest projects shallow and zero missing or non-shallow projects.
+The resolved TreeForge manifest contains 1011 projects. On the validated Linux host, `repo` activates 1008 projects; three Darwin-only prebuilts are excluded by manifest groups. All 1008 active projects were fresh-checkout validated shallow with zero missing or non-shallow active projects.
 
 
 ## Provenance
